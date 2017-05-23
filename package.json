@@ -1,0 +1,24 @@
+{
+  "name": "opossum",
+  "version": "1.0.0",
+  "description": "Keep away from opossums breath",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/forever -c node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpossumGit/Opossum.git"
+  },
+  "author": "Tvrtko Mrkonjic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpossumGit/Opossum/issues"
+  },
+  "homepage": "https://github.com/OpossumGit/Opossum#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "forever": "^0.15.3"
+  }
+}

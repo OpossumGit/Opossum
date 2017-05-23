@@ -1,0 +1,15 @@
+{
+  "name": "Opossum",
+  "repository": "https://github.com/OpossumGit/Opossum",
+  "env": {
+    "var": {
+      "description": "some env variable",
+      "value": "foo",
+      "required": true
+    }
+  },
+  "addons": [
+    "mongolab:sandbox",
+    "papertrail"
+  ]
+}
