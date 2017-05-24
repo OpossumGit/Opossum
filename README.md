@@ -4,4 +4,4 @@ Repo that contains initial node.js express app prepared for Heroku and Bluemix d
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/OpossumGit/Opossum # [required])
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/OpossumGit/Opossum.git)
