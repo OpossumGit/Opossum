@@ -4,7 +4,7 @@
   "description": "Keep away from opossums breath",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/mocha/bin/mocha tests",
     "start": "./node_modules/.bin/forever -c node app.js"
   },
   "repository": {
@@ -21,5 +21,14 @@
     "express": "^4.15.3",
     "forever": "^0.15.3",
     "serve-favicon": "^2.4.3"
-  }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-subset": "^1.2.2",
+    "mocha": "^2.5.3",
+    "supertest": "^1.2.0"
+  },
+  "keywords": [
+    "scaffold"
+  ]
 }
