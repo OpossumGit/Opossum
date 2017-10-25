@@ -1,17 +1,18 @@
-var request = require('supertest'); 
-//var assert = require('chai').assert;
 var chai = require('chai');
-var chaiSubset = require('chai-subset');
-chai.use(chaiSubset);
-var expect = chai.expect;
+var chaiHttp = require('chai-http');
+var should = chai.should();
+chai.use(chaiHTTP);
 
 var app = require('../app');
 
 describe('Landing page', function() {
-	describe('Get response', function() {
-		it('should not return error', function(done){ 
-			request(app).get('/')
-			.expect(200,done);
-		});
+	it('should get response', function(done) {
+		chai.request(app)
+		.get('/')
+		.end(function(err, res){
+			res.should.have.status(200);
+			done();
+		}
 	});
+
 });
